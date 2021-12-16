@@ -1,0 +1,52 @@
+;Remove IDs:
+1-5-0-ClearGround-2x1
+2-0-3-ClearTile-2x1
+3-0-2-ClearObject-2x2
+;04
+;
+;Ground colors:
+5-0-0-GrnGround-1x1
+6-1-0-DkBluGround-1x1
+7-2-0-LtBluGround-1x1
+8-3-0-YelGround-1x1
+9-4-0-BlkGround-1x1
+10-6-0-PnkGround-1x1
+11-7-0-RedGround-1x1
+12-8-0-GrayGround-1x1
+13-9-0-WhtGround-1x1
+;14-10-0- -1x1
+;15-11-0- -1x1
+;16-12-0- -1x1
+;17-13-0- -1x1
+;18-14-0- -1x1
+;19-15-0- -1x1
+;
+;Objects:
+20-1-2-Tree-1x2
+21-2-2-WelcomeSgn-1x2
+22-3-2-TombStn-2x2
+23-4-2-Memorial-2x2
+24-5-2-GregarStR-2x2
+25-6-2-GregarStL-2x2
+26-7-2-PotPlant-1x1
+27-8-2-PotFlwr-1x1
+28-9-2-WallBlock1-2x2
+29-10-2-WallBlock2-2x2
+30-11-2-WallBlock3-2x2
+31-12-2-WallBlock4-2x2
+32-13-2-Table1-2x1
+33-14-2-Table2-2x1
+34-15-2-Table3-2x1
+35-16-2-Table4-2x1
+36-17-2-FalzarStR-2x2
+37-18-2-FalzarStL-2x2
+;
+;Tiles:
+60-1-3-GrassTile-2x1
+61-2-3-DkTile-2x1
+62-3-3-SmWhtTile-2x1
+63-4-3-NaYellTile-2x1
+64-5-3-GrnTile-2x1
+65-6-3-WhtRug1-2x1
+66-7-3-WhtRug2-2x1
+67-8-3-WhtTile-2x1

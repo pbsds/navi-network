@@ -1,0 +1,8 @@
+InventoryID-ID-Type-Name-BG size(eg: 1x2)
+
+Type - a number between 0 and 4:
+0: Ground color
+1: ?
+2: Object
+3: Tile
+4: Other(such as tickets and stuff)

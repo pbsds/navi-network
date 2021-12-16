@@ -1,0 +1,5 @@
+32x48x30
+A block with
+a texture,
+used to
+create walls

@@ -1,0 +1,14 @@
+The save contains the world and spawn position, which is stored in Config.txt
+
+
+Each .chunk file contains a chunk of the map, which is 16x16 cells.
+The filename name is "XxY.chunk", where X and Y are the decimal offset values.
+
+Each cell uses 3 bytes.
+To find the offset in the file to a spesific cell, use this: (X+Y*16)*3
+The 3 bytes contain these values:
+
+4bit - Ground color(5 = none)
+4bit - RESERVED    (probably attributes for the object, or BGM changer)
+8bit - Object ID   (0 = none)
+8bit - Tile ID     (0 = none)
