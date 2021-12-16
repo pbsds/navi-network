@@ -10,7 +10,7 @@
 #============================#
 
 #Globals:
-Host = "213.138.175.204"
+Host = "navinet.pbsds.net"
 Port = 31337
 SendFrequency = 1.0/15#How often to send your position to the server
 Version = "Alpha v0.4"

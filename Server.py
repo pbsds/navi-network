@@ -10,7 +10,7 @@ except ImportError:
 os.chdir(sys.path[0]+"/Server")
 
 #Globals:
-Host = "213.138.175.204"
+Host = "navinet.pbsds.net"
 Version = "Alpha v0.4"
 StepFrequency = 1.0/15#seconds
 GAdmins = None#A list of global admins
