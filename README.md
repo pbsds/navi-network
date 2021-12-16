@@ -6,6 +6,7 @@ The `MainServer` is a central server only used to list the other `Server`s.
 It never really moved beyond a proof of concept. 
 
 Please **do not** [register](http://navinet.pbsds.net:81/) an account with a password you use elsewhere, as MD5 really is not a safe means of hashing!
+If needed, a user with name **foo** and password **bar** should exist.
 
 Original project page: <http://pbsds.net/projects/navinet>
 
