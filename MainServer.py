@@ -14,7 +14,7 @@ __DEC___Game clients:______Server clients:__
 
 #import stuff:
 if __name__ == "__main__": print "Importing the needed modules..."
-import hashlib, sys, os, ConfigParser, cgi
+import hashlib, sys, os, ConfigParser, cgi, re
 from twisted.internet import reactor
 from twisted.internet.protocol import Protocol,Factory
 from twisted.web import server as WebServer, resource as WebResource
@@ -147,7 +147,7 @@ class GameClient(Protocol):
 			return
 			
 		#Check if the username is registered and if not already logged on:
-		if re.match(r'^[a-zA-Z0-9_\-]+$',Username) and os.path.exists("Users/"+Username+".ini") and Username not in UsersOnline:
+		if re.match(r'^[a-zA-Z0-9_\- ]+$',Username) and os.path.exists("Users/"+Username+".ini") and Username not in UsersOnline:
 			handle = open("Users/"+Username+".ini","r")
 			INI = ConfigParser.ConfigParser()
 			INI.readfp(handle)
@@ -309,7 +309,7 @@ class Website(WebResource.Resource):
 				return "<html><body><center><br/><br/><h1>Error - missing arguments!</h1></center></body></html>"
 			if os.path.exists("Users/"+usr+".ini"):
 				return "<html><body><center><br/><br/><h1>Error - Username taken!</h1></center></body></html>"
-			if not re.match(r'^[a-zA-Z0-9_\-]+$',usr):
+			if not re.match(r'^[a-zA-Z0-9_\- ]+$',usr):
 				return "<html><body><center><br/><br/><h1>Error - Username invalid!</h1></center></body></html>"
 			
 			INI = ConfigParser.ConfigParser()
